@@ -34,33 +34,33 @@ const Flag = () => {
   const data = [
     {
       img: "/british.png",
-      text: `${t("ourOffer_Language1")}`,
+      // text: `${t("ourOffer_Language1")}`,
       url: britishSlug,
     },
     {
       img: "/france.png",
-      text: `${t("ourOffer_Language2")}`,
+      // text: `${t("ourOffer_Language2")}`,
       url: frenchSlug,
     },
     {
       img: "/spain.png",
-      text: `${t("ourOffer_Language3")}`,
+      // text: `${t("ourOffer_Language3")}`,
       url: spanishSlug,
     },
 
     {
       img: "/united-states.png",
-      text: `${t("ourOffer_Language4")}`,
+      // text: `${t("ourOffer_Language4")}`,
       url: usaSlug,
     },
     {
       img: "/china.png",
-      text: `${t("ourOffer_Language5")}`,
+      // text: `${t("ourOffer_Language5")}`,
       url: chineseSlug
     },
     {
       img: "/russia.png",
-      text: `${t("ourOffer_Language6")}`,
+      // text: `${t("ourOffer_Language6")}`,
       url: russianSlug
     },
   ];
@@ -69,10 +69,10 @@ const Flag = () => {
     <div className="container">
       <div className="pt-10 pb-36">
         <h2 className="text-5xl font-semibold text-center pb-8">
-          {t("ourOffer_Title")}
+          {/* {t("ourOffer_Title")} */}
         </h2>
         <p className="text-center font-normal text-base pb-20">
-          {t("ourOffer_para")}
+          {/* {t("ourOffer_para")} */}
         </p>
         <div className=" grid grid-cols-3 gap-10">
           {data.map((item, index) => {
@@ -86,9 +86,9 @@ const Flag = () => {
                     width={150}
                     height={0}
                   />
-                  <p className="text-xl text-center font-semibold">
+                  {/* <p className="text-xl text-center font-semibold">
                     {item.text}
-                  </p>
+                  </p> */}
                 </div>
               </Link>
             );

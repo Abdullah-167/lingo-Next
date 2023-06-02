@@ -3,7 +3,6 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import MiniNav from "./MiniNav";
 import ProgressButton from "./ProgressButton";
-import ProgressBar from "./ProgressBar";
 
 interface LayoutCpm {
   children: any;
