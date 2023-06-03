@@ -5,6 +5,7 @@ import ContentCTA from '../ContentCTA'
 import OurNumbers from '../OurNumbers'
 import SideImg from '../SideImg'
 import Services from '../Services'
+import Quote from '../Quote'
 
 const Index = () => {
     return (
@@ -60,7 +61,9 @@ const Index = () => {
                     title={'Translation & Localization'}
                     para={'Proofreading and translation services of the highest quality and professionalism.'}
                     btntext={'DISCOVER MORE'}
-                    data={data} />
+                    data={data}
+                />
+                <Quote />
             </Layout>
         </div>
     )
