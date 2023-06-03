@@ -80,11 +80,11 @@ const Navbar: React.FC = () => {
     },
     {
       label: t("firstDropDown4"),
-      path: "/",
+      path: "translation-and-localization/website-translation-service",
     },
     {
       label: t("firstDropDown5"),
-      path: "/",
+      path: "/translation-and-localization/machine-translation-service",
 
     },
     {
