@@ -45,7 +45,7 @@ const Home = () => {
       <OurNumbers
       />
       <TextImageGrid />
-      <FAQ />
+      <FAQ data={faqData} />
       <RequestQuote />
     </Layout>
   );
@@ -101,5 +101,53 @@ const data = [
     url: "/",
     bgColor: "rgba(247,103,180,0.3)",
     color: "#f767b4",
+  },
+];
+
+
+const faqData = [
+  {
+    heading: "What is LingoYou?    ",
+    para: "LingoYou is a translation and localisation agency whose mission is to break down language barriers by providing affordable, accurate and high-quality translations.    ",
+  },
+  {
+    heading: "What are the most popular translation services?    ",
+    para: "Among the most popular services are certified translation and website localisation – especially for companies expanding abroad. Recently, we have seen an upward trend in requests for subtitling and voice-over services in the business sector.",
+  },
+  {
+    heading: "For which languages is the translation service available?    ",
+    para: "The translation service is available for a wide range of languages, from the most familiar such as Indo-European (French, English, German, Spanish, etc.) to the more ‘distant’ and rare such as Sino-Tibetan and Afro-Asiatic.    ",
+  },
+  {
+    heading: "How can you request a quote?    ",
+    para: "The quote can be requested via our customer portal.",
+  },
+  {
+    heading:
+      "I am an individual customer, can I request a translation?",
+    para: "Yes, of course. We provide translation services to both companies and individuals.",
+  },
+  {
+    heading: "Why is LingoYou different from other translation services?",
+    para: "Because we put our customers’ needs and requests first, providing a free 24-hour support service and delivering more than convincing and accurate localised translations.",
+  },
+  {
+    heading:
+      "What guarantee do you give on the quality of the translation?",
+    para: "LingoYou offers a free quality assurance service. We submit the translation to a second translator before it is finalised and delivered, in order to certify its quality.",
+  },
+  {
+    heading:
+      "How quickly is the quote provided?   ",
+    para: "For editable files, you will get the quote automatically. For non-editable files, you will receive the quote in 15 minutes.",
+  },
+  {
+    heading:
+      "Is payment for translations in advance? ",
+    para: "Yes, for a better guarantee the payment is in advance.",
+  },
+  {
+    heading: "What are the delivery times?",
+    para: "Delivery times vary according to the service to be provided and its intended use.",
   },
 ];

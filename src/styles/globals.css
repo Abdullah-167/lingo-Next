@@ -23,6 +23,12 @@ body {
   padding: 0 15px;
 }
 
+.imgcontainer {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 15px;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }

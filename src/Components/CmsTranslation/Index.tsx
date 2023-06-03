@@ -22,15 +22,13 @@ const Index = () => {
           <OurNumbers />
         </div>
         <SideImg para1={'We know well the importance of website translation: the website is the business card of a company, a company or a brand and plays a fundamental role in influencing the choices of users. Inevitably, your company will be evaluated primarily on the basis of the content of your website. In this sense, it becomes essential to communicate the real image of your company, regardless of the source language.'}
-          para2={'Through our Content Manager System translation, sharing your content with a much wider audience will be much easier. Thanks to the translation of your CMS, your customers will be able to feel at ease and get in touch with you, with the naturalness and confidence that only their native language can render.'}
-          para3={''} para4={''}
-          heading={'Why should you choose LingoYous CMS translation services?'} img={'/coding.webp'} numShow={'flex'} btnShow={'none'} flexDirection={'row-reverse'} padding={'0 0 0 20px'} backgroundColor={''} gap={'20px'}
-        />
+        para2={'Through our Content Manager System translation, sharing your content with a much wider audience will be much easier. Thanks to the translation of your CMS, your customers will be able to feel at ease and get in touch with you, with the naturalness and confidence that only their native language can render.'}
+        para3={''} para4={''}
+        heading={'Why should you choose LingoYous CMS translation services?'} img={'/coding.webp'} numShow={'flex'} btnShow={'none'} flexDirection={'row-reverse'} padding={'0 0 0 20px'} backgroundColor={''} gap={'20px'} width={undefined} para4Display={''} para3Display={''}    />
         <SideImg para1={'We know well the importance of website translation: the website is the business card of a company, a company or a brand and plays a fundamental role in influencing the choices of users. Inevitably, your company will be evaluated primarily on the basis of the content of your website. In this sense, it becomes essential to communicate the real image of your company, regardless of the source language.'}
-          para2={'Through our Content Manager System translation, sharing your content with a much wider audience will be much easier. Thanks to the translation of your CMS, your customers will be able to feel at ease and get in touch with you, with the naturalness and confidence that only their native language can render.'}
-          para3={''} para4={''}
-          heading={'Why should you choose LingoYous CMS translation services?'} img={'/laptop.webp'} numShow={'none'} btnShow={undefined} flexDirection={''} padding={'0 0 0 20px'} backgroundColor={''} gap={''}
-        />
+        para2={'Through our Content Manager System translation, sharing your content with a much wider audience will be much easier. Thanks to the translation of your CMS, your customers will be able to feel at ease and get in touch with you, with the naturalness and confidence that only their native language can render.'}
+        para3={''} para4={''}
+        heading={'Why should you choose LingoYous CMS translation services?'} img={'/laptop.webp'} numShow={'none'} btnShow={undefined} flexDirection={''} padding={'0 0 0 20px'} backgroundColor={''} gap={''} width={undefined} para4Display={''} para3Display={''}    />
         <Services title={'Translation & Localization'} para={'Translation services of the highest quality and professionalism.'} btntext={'DISCOVER MORE'} data={data} />
         <Quote />
       </Layout>

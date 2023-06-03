@@ -1,4 +1,4 @@
-import DesktopPublishingService from "../Components/DesktopPublishingService/index"
+import DesktopPublishingService from "../../Components/DesktopPublishingService/index"
 import Seo from "@/Components/Seo";
 import useTranslation from "@/hooks/useTranslation";
 export default function HomePage() {
@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <>
       <Seo title={t("homeMetaTitle")} description={t("homeMetaDescription")} />
-      <DesktopPublishingService/>
+      <DesktopPublishingService />
     </>
   );
 }

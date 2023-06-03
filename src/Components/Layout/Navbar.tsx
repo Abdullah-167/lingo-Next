@@ -72,11 +72,11 @@ const Navbar: React.FC = () => {
 
     {
       label: t("firstDropDown2"),
-      path: "/",
+      path: "translation-and-localization/desktop-publishing-service",
     },
     {
       label: t("firstDropDown3"),
-      path: "/",
+      path: "translation-and-localization/revision-service",
     },
     {
       label: t("firstDropDown4"),
@@ -89,12 +89,12 @@ const Navbar: React.FC = () => {
     },
     {
       label: t("firstDropDown6"),
-      path: "cms-translation-service",
+      path: "translation-and-localization/cms-translation-service",
 
     },
     {
       label: t("firstDropDown7"),
-      path: "app-translation-service",
+      path: "translation-and-localization/app-translation-service",
 
     },
   ];
@@ -234,7 +234,7 @@ const Navbar: React.FC = () => {
                 // @ts-ignore
                 onMouseLeave={() => setDropDown(false)}
               >
-                <Link href={"/"}>
+                <Link href={"/translation-and-localization"}>
                   <button
                     onMouseOver={() => setDropDown(true)}
                     className="text-[12px] font-medium flex gap-1 justify-center items-center text-[#6f6f6f] active:text-secondary hover:text-secondary  p-2 bg-white "

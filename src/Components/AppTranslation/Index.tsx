@@ -28,15 +28,15 @@ const Index = () => {
                 </div>
                 <div className='pb-20'>
                     <SideImg para1={'Providing application translation services requires specific skills that are not only linguistic and cultural, but also related to the sector in question.'}
-                        para2={'Depending on the type of application, the translator will need to be familiar with the specific language and terminology, possess precise skills in advertising and marketing, and always respect the meaning and intent of the original content.'}
-                        para3={'Our team of professionals will help you make your application known worldwide by providing a professional translation service.'}
-                        heading={'Why should you choose LingoYous app translation services?'} para4={''} img={'/languageImg.webp'} numShow={'nonw'} btnShow={'flex'} flexDirection={''} padding={'0 50px 0 0'} backgroundColor={''} gap={'40px'} />
+                    para2={'Depending on the type of application, the translator will need to be familiar with the specific language and terminology, possess precise skills in advertising and marketing, and always respect the meaning and intent of the original content.'}
+                    para3={'Our team of professionals will help you make your application known worldwide by providing a professional translation service.'}
+                    heading={'Why should you choose LingoYous app translation services?'} para4={''} img={'/languageImg.webp'} numShow={'nonw'} btnShow={'flex'} flexDirection={''} padding={'0 50px 0 0'} backgroundColor={''} gap={'40px'} width={undefined} para4Display={''} para3Display={''} />
                 </div>
                 <SideImg para1={'We strive for excellence.iOs app translation or Android app translation, there is no stopping us.'}
-                    para2={'We have the experience and the skills to ensure you always receive a professional and quality service. We firmly believe in what we do and we put all our efforts into serving our clients.'}
-                    para3={'Our agency grows every day with success thanks to a team of experts and concrete results.'}
-                    para4={'The satisfaction of our customers is our greatest gratification.'}
-                    heading={'Our strengths'} img={'/laptop.webp'} numShow={'flex'} btnShow={'none'} flexDirection={'row-reverse'} padding={'100px 20px 100px 50px'} backgroundColor={'#F7F7F7'} gap={undefined} />
+                para2={'We have the experience and the skills to ensure you always receive a professional and quality service. We firmly believe in what we do and we put all our efforts into serving our clients.'}
+                para3={'Our agency grows every day with success thanks to a team of experts and concrete results.'}
+                para4={'The satisfaction of our customers is our greatest gratification.'}
+                heading={'Our strengths'} img={'/laptop.webp'} numShow={'flex'} btnShow={'none'} flexDirection={'row-reverse'} padding={'100px 20px 100px 50px'} backgroundColor={'#F7F7F7'} gap={undefined} width={undefined} para4Display={''} para3Display={''} />
                 <Services title={'Translation & Localization'} para={'Translation services of the highest quality and professionalism.'} btntext={'DISCOVER MORE'} data={data}
                 />
                 <Quote />

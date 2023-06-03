@@ -16,10 +16,13 @@ interface SideImgProps {
     flexDirection: any;
     padding: string;
     backgroundColor: string;
-    gap: any
+    gap: any;
+    width: any;
+    para4Display: string;
+    para3Display: string;
 }
 
-const SideImg: React.FC<SideImgProps> = ({ para1, para2, para3, para4, heading, img, numShow, btnShow, flexDirection, padding, backgroundColor, gap }) => {
+const SideImg: React.FC<SideImgProps> = ({ para1, para2, para3, para4, heading, img, numShow, btnShow, flexDirection, padding, backgroundColor, gap, width, para4Display, para3Display }) => {
 
     const [count, setCount] = useState(0);
 
@@ -38,16 +41,17 @@ const SideImg: React.FC<SideImgProps> = ({ para1, para2, para3, para4, heading, 
     //@ts-ignore
     const slug = `/${locale}/${freeQuoteSlug[locale]}`;
     return (
-        <div className="container">
+        <div className="imgcontainer">
             <div style={
                 {
                     display: 'flex',
                     flexDirection: flexDirection,
-                    gap: gap
+                    gap: gap,
+                    justifyContent: 'center'
                 }
             }
                 className=" items-center  ">
-                <div className="max-w-[700px]">
+                <div className={`max-w-[${width}]`}>
                     <Image src={img} alt={"img"} width={1000} height={1000} />
                 </div>
                 <div
@@ -74,10 +78,20 @@ const SideImg: React.FC<SideImgProps> = ({ para1, para2, para3, para4, heading, 
                                         {para2}
                                         <br />
                                         <br />
-                                        {para3}
+                                        <span
+                                            style={{
+                                                display: para3Display
+                                            }}
+                                        >
+                                            {para3}
+                                        </span>
                                         <br />
                                         <br />
-                                        {para4}
+                                        <span style={{
+                                            display: para4Display
+                                        }}>
+                                            {para4}
+                                        </span>
                                     </p>
                                 </p>
                             </div>

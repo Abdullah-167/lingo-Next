@@ -1,4 +1,4 @@
-import Home from "../Components/Home"
+import Home from "../Components/Home/Index"
 import Seo from "@/Components/Seo";
 import useTranslation from "@/hooks/useTranslation";
 export default function HomePage() {
