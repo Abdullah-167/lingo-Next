@@ -17,13 +17,13 @@ const OurNumbers = () => {
   }, [count]);
   return (
     <div className="w-full ">
-      <div className="container">
+      <div className="max-w-[800px] mx-auto">
         <div className="flex flex-col md:flex-row justify-center md:justify-between gap-5">
           {counting.map((item, index) => {
             return (
               <div key={index}>
                 <p
-                  className="text-[60px] lg:text-[72px] font-medium text-center"
+                  className="text-[60px] lg:text-[60px] font-medium text-center"
                   style={{
                     color: item.color,
                   }}
@@ -31,7 +31,7 @@ const OurNumbers = () => {
                   {count >= declaredNum ? item.num : count}
                 </p>
                 <p
-                  className="text-[20px] lg:text-[26px] font-medium text-center"
+                  className="text-[18px] font-medium text-center"
                   style={{
                     color: item.color2,
                   }}

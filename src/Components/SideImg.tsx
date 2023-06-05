@@ -70,30 +70,25 @@ const SideImg: React.FC<SideImgProps> = ({ para1, para2, para3, para4, heading, 
                                 <h2 className="text-[#333333] text-[30px] sm:text-[35px] font-bold ">
                                     {heading}
                                 </h2>
-                                <p className=" text-base text-[#666666] font-medium  mx-auto  py-2 sm:py-8">
-                                    <p>
-                                        {para1}
-                                        <br />
-                                        <br />
-                                        {para2}
-                                        <br />
-                                        <br />
-                                        <span
-                                            style={{
-                                                display: para3Display
-                                            }}
-                                        >
-                                            {para3}
-                                        </span>
-                                        <br />
-                                        <br />
-                                        <span style={{
-                                            display: para4Display
-                                        }}>
-                                            {para4}
-                                        </span>
-                                    </p>
+                                <p className=" text-base text-[#666666] font-medium  mx-auto  py-3">
+                                    {para1}
                                 </p>
+                                <p className=" text-base text-[#666666] font-medium  mx-auto  pb-3">
+                                    {para2}
+                                </p>
+                                <p style={{
+                                    display: para3Display
+                                }} className=" text-base text-[#666666] font-medium  mx-auto  pb-3">
+                                    {para3}
+                                </p>   <p style={{
+                                    display: para4Display
+                                }} className=" text-base text-[#666666] font-medium  mx-auto  pb-3">
+                                    <p className=" text-base text-[#666666] font-medium  mx-auto  pb-3">
+                                        {para4}
+                                    </p>
+
+                                </p>
+
                             </div>
                         </div>
                         <div
